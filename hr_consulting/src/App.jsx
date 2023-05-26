@@ -1,5 +1,5 @@
 import styles from './style';
-
+import React from 'react';
 import { Navbar, Hero, Stats, Busines, Biling, CardDeal, Testimonials, Clients, CTA, Footer } from './components';
 
 const App = () => (
