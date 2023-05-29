@@ -125,15 +125,22 @@
 
 .blue__gradient {
   background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
-  filter: blur(123px);
+  filter: blur(100px);
 }
 
 .pink__gradient {
   background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
-  filter: blur(900px);
+  filter: blur(300px);
 }
 
 .white__gradient {
-  background: rgba(255, 255, 255, 0.6);
-  filter: blur(750px);
+  background: rgba(255, 255, 255, 0.7);
+  filter: blur(400px);
+}
+
+.hbv {
+  font-size: 123px;
+  font-size: 900px;
+  font-size: 750px;
+
 }
