@@ -2,7 +2,7 @@ import React from 'react';
 import styles, {layout} from '../style';
 import { card } from '../assets';
 import Button from './Button';
- 
+
 const CardDeal = () =>(
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
