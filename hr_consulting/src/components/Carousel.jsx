@@ -3,21 +3,21 @@ import {car} from '../assets';
 
 const Carousel = () => (
 <section>
-<div id="default-carousel" className="relative w-full" data-carousel="slide">
+{/* <div id="default-carousel" className="relative w-full" data-carousel="slide">
     <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+        <div className=" duration-700 ease-in-out" data-carousel-item>
             <img src={car} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+        <div className=" duration-700 ease-in-out" data-carousel-item>
             <img src={car} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+        <div className=" duration-700 ease-in-out" data-carousel-item>
             <img src={car} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+        <div className=" duration-700 ease-in-out" data-carousel-item>
             <img src={car} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+        <div className=" duration-700 ease-in-out" data-carousel-item>
             <img src={car} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
     </div>
@@ -40,7 +40,7 @@ const Carousel = () => (
             <span className="sr-only">Next</span>
         </span>
     </button>
-</div>
+</div> */}
 </section>
 )
 
