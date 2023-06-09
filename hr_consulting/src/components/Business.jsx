@@ -23,12 +23,11 @@ const Business = () =>(
   <section id='features' className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-      You do the business, 
+      Some meaningful quote 
       <br className='sm:block hidden' /> 
-      we’ll handle the money.
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.
-      </p>
+      about the "ODDIY CONSULT".
+      <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
+      "ODDIY CONSULT" kadrlar agentligi biznesga 5+ yildan ortiq vaqt davomida sifatli va samarali mutaxassislarni tanlashda muvaffaqiyatli yordam berdi. Biz mijozlarimizga kadrlar tayyorlash va kadrlar tayyorlash va boshqarish bo'yicha professional echimlarni taqdim etish bo'yicha maslahat beramiz.    </p>
       </h2>
       <Button styles="mt-10"/>
     </div>

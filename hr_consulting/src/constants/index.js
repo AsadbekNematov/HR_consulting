@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Tezlik",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Saralash muddati 7-14 kun. Rasmiyatchilikning natijasi muhimroq-biz shartnoma imzolanishidan oldin ishlay boshlaymiz.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "8+ Yillik Tajriba",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Bizning maslahatchilarimiz ishga qabul qilishda 8 yildan ortiq tajribaga ega.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Narxlar",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Bizda tanlov narxi bo'yicha eng yaxshi shartlar mavjud. Moslashuvchan yondashuv.",
   },
 ];
 
