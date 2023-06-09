@@ -1,9 +1,9 @@
 import React from 'react';
 import styles, {layout} from '../style';
-import { card } from '../assets';
+import { card, rating2 } from '../assets';
 import Button from './Button';
 
-const CardDeal = () =>(
+const Rating = () =>(
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
@@ -17,9 +17,9 @@ const CardDeal = () =>(
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={card} alt="card" className='w-[100%] h-[100%]' />
+      <img src={rating2} alt="card" className='w-[60%]' />
     </div>
   </section>
 )
 
-export default CardDeal
+export default Rating

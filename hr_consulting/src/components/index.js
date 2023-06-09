@@ -1,6 +1,7 @@
 import Navbar from "./Navbar";
-import Billing from "./Billing";
-import CardDeal from "./CardDeal";
+import Hiring from "./Hiring";
+import Teaching from "./Teaching";
+import Rating from "./Rating";
 import Business from "./Business";
 import Clients from "./Clients";
 import CTA from "./CTA";
@@ -12,9 +13,10 @@ import Carousel from "./Carousel";
 
 export {
   Navbar,
-  Billing,
-  CardDeal,
+  Hiring,
+  Rating,
   Business,
+  Teaching,
   Clients,
   CTA,
   Stats,

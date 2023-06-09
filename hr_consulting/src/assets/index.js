@@ -24,8 +24,24 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import car from "./car.jpg";
+import hiring1 from "./hiring1.svg";
+import hiring2 from "./hiring2.svg";
+import rating1 from "./rating1.svg";
+import rating2 from "./rating2.svg";
+import teaching1 from "./teaching1.svg";
+import teaching2 from "./teaching2.svg";
+
+
+
+
 
 export {
+  hiring1,
+  hiring2,
+  rating1, 
+  rating2,
+  teaching1, 
+  teaching2,
   airbnb,
   bill,
   car,
