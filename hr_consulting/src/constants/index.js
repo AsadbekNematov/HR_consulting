@@ -73,18 +73,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "yildan beri faoliyat olib kelamiz",
+    value: "5+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Tanlangan mutaxassislar",
+    value: "1 290+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Xodimlarni tanlash bo'yicha amalga oshirilgan loyihalar",
+    value: "675+",
   },
 ];
 

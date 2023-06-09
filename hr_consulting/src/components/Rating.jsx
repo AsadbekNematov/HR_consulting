@@ -7,17 +7,16 @@ const Rating = () =>(
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Find a better card deal <br className='sm:block hidden' />
-        in few easy steps.
+      Xodimlarni Tekshirish <br className='sm:block hidden' />va Baholash.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+      Rivojlanish bo'yicha tavsiyalar bilan xodimlarni baholash tizimi.
       </p>
     <Button styles="mt-10"/>
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={rating2} alt="card" className='w-[60%]' />
+      <img src={rating2} alt="card" className='w-[55%]' />
     </div>
   </section>
 )
