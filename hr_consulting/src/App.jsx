@@ -1,5 +1,6 @@
 import styles from './style';
 import React from 'react';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Navbar, Hero, Stats, Business, Hiring, Rating, Testimonials, Clients, CTA, Footer, Carousel, Teaching } from './components';
 
 const App = () => (
@@ -24,7 +25,7 @@ const App = () => (
         <Hiring/>
         <Rating/>
         <Teaching/>
-        <Testimonials/>
+        {/*<Testimonials/>*/}
         <Clients/>
         <CTA />
         <Footer />
