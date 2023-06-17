@@ -1,11 +1,21 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import styles, { layout  } from '../style';
-import { card, rating2,  hiring2 } from '../assets';
+import { card, rating2,  hiring2, teaching2} from '../assets';
 import Button from './Button';
 
 const Rating = () => (
-  <section className={`${layout.section} flex flex-row relative h-full`}>
+  <section className={`flex flex-col relative h-full`}>
+    <div className={layout.sectionInfo}>
+      <h2 className={`${styles.heading2} text-center`}>
+      Bizning HR Xizmatlarimiz
+
+      {/* <br className='sm:block hidden'/> billing & invoicing. */}
+      </h2>
+      <p className={`font-poppins font-normal text-dimWhite text-[22px] leading-[30.8px] max-w-[470px] text-center w-full p mt-5`}>
+      Lorem impsum amament
+      </p>
+      </div>
     <Carousel
       showStatus={false}
       showThumbs={false}
@@ -17,14 +27,14 @@ const Rating = () => (
       className="relative h-full max-w-[100%]"
       renderArrowPrev={(onClickHandler, hasPrev, label) => 
         hasPrev && (
-          <button type="button" onClick={onClickHandler} title={label} className="absolute top-1/2 transform -translate-y-1/2 left-0 z-10 text-4xl text-white bg-black p-2 rounded-full">
+          <button type="button" onClick={onClickHandler} title={label} className="absolute top-1/2 transform -translate-y-1/2 left-0 z-10 text-4xl text-main p-2 rounded-full">
             ‹
           </button>
         )
       }
       renderArrowNext={(onClickHandler, hasNext, label) =>
         hasNext && (
-          <button type="button" onClick={onClickHandler} title={label} className="absolute top-1/2 transform -translate-y-1/2 right-0 z-10 text-4xl text-white bg-black p-2 rounded-full">
+          <button type="button" onClick={onClickHandler} title={label} className="absolute top-1/2 transform -translate-y-1/2 right-0 z-10 text-4xl text-main p-2 rounded-full">
             ›
           </button>
         )
@@ -32,7 +42,7 @@ const Rating = () => (
     >
   <div id='product' className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
-      <img src={hiring2} alt="billing" className='w-[80%] relative z-[5]' />
+      <img src={hiring2} alt="billing" className='w-[72%] relative z-[5]' />
 
       <div className='absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient '/>
       <div className='absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient '/>
@@ -52,37 +62,50 @@ const Rating = () => (
       </div>
     </div>
   </div>
-      <div className="flex card1 flex-col">
-        <div className={layout.sectionImg}>
-          <img src={rating2} alt="card" className="w-[100px] relative z-[5]" />
-        </div>
-        <div className={layout.sectionInfo}>
-          <h2 className={styles.heading2}>
-            Xodimlarni Tekshirish <br className="sm:block hidden" />
-            va Baholash.
-          </h2>
-          <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-            Rivojlanish bo'yicha tavsiyalar bilan xodimlarni baholash tizimi.
-          </p>
-          <Button styles="mt-10" />
-        </div>
-      </div>
+  <div id='product' className={layout.sectionReverse}>
+    <div className={layout.sectionImgReverse}>
+      <img src={rating2} alt="billing" className='w-[55%] relative z-[5]' />
 
-      <div className="flex card2 flex-col">
-        <div className={layout.sectionImg}>
-          <img src={rating2} alt="card" className="w-[10%] relative z-[5]" />
-        </div>
-        <div className={layout.sectionInfo}>
-          <h2 className={styles.heading2}>
-            Xodimlarni Tekshirish <br className="sm:block hidden" />
-            va Baholash.
-          </h2>
-          <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-            Rivojlanish bo'yicha tavsiyalar bilan xodimlarni baholash tizimi.
-          </p>
-          <Button styles="mt-10" />
-        </div>
+      <div className='absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient '/>
+      <div className='absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient '/>
+    </div>
+
+    <div className={layout.sectionInfo}>
+      <h2 className={styles.heading2}>
+      Xodimlarni Tekshirish
+      <br className='sm:block hidden'/> va Baholash.
+      </h2>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      Rivojlanish bo'yicha tavsiyalar bilan xodimlarni baholash tizimi.
+      </p>
+      <div className='flex flex-row flex-wrap sm:mt-10 mt-6'>
+      <Button/>
+
       </div>
+    </div>
+  </div>
+  <section id='product' className={layout.sectionReverse}>
+  <div className={layout.sectionImgReverse}>
+    <img src={teaching2} alt="billing" className='w-[88%] relative z-[5]' />
+
+    <div className='absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient '/>
+    <div className='absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient '/>
+  </div>
+
+  <div className={layout.sectionInfo}>
+    <h2 className={styles.heading2}>
+    Kadrlar Tayyorlash
+    {/* <br className='sm:block hidden'/> billing & invoicing. */}
+    </h2>
+    <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+    Kompaniyada treninglar va mutaxassislarni tayyorlash.
+    </p>
+    <div className='flex flex-row flex-wrap sm:mt-10 mt-6'>
+    <Button/>
+
+    </div>
+  </div>
+</section>
     </Carousel>
   </section>
 );

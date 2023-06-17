@@ -22,9 +22,9 @@ const App = () => (
         <Stats/>
         <Carousel/>
         <Business/>
-        <Hiring/>
+        {/*<Hiring/>*/}
         <Rating/>
-        <Teaching/>
+        {/*<Teaching/>*/}
         {/*<Testimonials/>*/}
         <Clients/>
         <CTA />
