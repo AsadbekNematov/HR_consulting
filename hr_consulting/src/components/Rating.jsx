@@ -5,14 +5,17 @@ import { card, rating2,  hiring2, teaching2} from '../assets';
 import Button from './Button';
 
 const Rating = () => (
-  <section className={`flex flex-col relative h-full`}>
-    <div className={layout.sectionInfo}>
+  <section className={`flex flex-col pt-2 relative h-full`}>
+    <div className='absolute z-[3] left-[100%] -top-20 w-[50%] h-[50%] rounded-full white__gradient '/>
+    <div className='absolute z-[0] -left-1/2 bottom-[0] w-[50%] h-[50%] rounded-full pink__gradient '/>
+
+    <div className={`${layout.sectionInfo} pt-0 pb-2.5 items-center`}>
       <h2 className={`${styles.heading2} text-center`}>
       Bizning HR Xizmatlarimiz
 
       {/* <br className='sm:block hidden'/> billing & invoicing. */}
       </h2>
-      <p className={`font-poppins font-normal text-dimWhite text-[22px] leading-[30.8px] text-center w-full p mt-5`}>
+      <p className={`font-poppins font-normal text-dimWhite text-[22px] leading-[30.8px] text-center w-full p mb-5`}>
       Lorem impsum amament
       </p>
       </div>
@@ -22,7 +25,7 @@ const Rating = () => (
       infiniteLoop={true}
       emulateTouch={true}
       selectedItem={1}
-      autoPlay={true} // Add this line to enable auto play
+      autoPlay={false} // Add this line to enable auto play
       interval={2000} // Optional: Adjust this value to change the slide interval (in milliseconds)
       className="relative h-full max-w-[100%]"
       renderArrowPrev={(onClickHandler, hasPrev, label) => 
@@ -40,15 +43,12 @@ const Rating = () => (
         )
       }
     >
-  <div id='product' className={layout.sectionReverse}>
+  <div id='product' className={`${layout.section} py-0 items-center	`}>
     <div className={layout.sectionImgReverse}>
       <img src={hiring2} alt="billing" className='w-[72%] relative z-[5]' />
+  </div>
 
-      <div className='absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient '/>
-      <div className='absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient '/>
-    </div>
-
-    <div className={layout.sectionInfo}>
+  <div className={`${layout.sectionInfo} pt-0 pb-2.5 items-center	`}>
       <h2 className={styles.heading2}>
       Xodimlarni Yollash.
       {/* <br className='sm:block hidden'/> billing & invoicing. */}
@@ -56,21 +56,18 @@ const Rating = () => (
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       Biz mijoz bilan yaqin hamkorlikda loyiha boʼyicha ishlarning toʼliq siklini amalga oshiramiz.  
       </p>
-      <div className='flex flex-row flex-wrap sm:mt-10 mt-6'>
+      <div className='flex align-center flex-row flex-wrap justify-center w-full sm:mt-10 mt-6'>
       <Button/>
 
       </div>
     </div>
   </div>
-  <div id='product' className={layout.sectionReverse}>
+  <div id='product' className={`${layout.section} py-0 items-center	`}>
     <div className={layout.sectionImgReverse}>
       <img src={rating2} alt="billing" className='w-[55%] relative z-[5]' />
-
-      <div className='absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient '/>
-      <div className='absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient '/>
     </div>
 
-    <div className={layout.sectionInfo}>
+    <div className={`${layout.sectionInfo} pt-0 pb-2.5 items-center	`}>
       <h2 className={styles.heading2}>
       Xodimlarni Tekshirish
       <br className='sm:block hidden'/> va Baholash.
@@ -78,21 +75,18 @@ const Rating = () => (
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       Rivojlanish bo'yicha tavsiyalar bilan xodimlarni baholash tizimi.
       </p>
-      <div className='flex flex-row flex-wrap sm:mt-10 mt-6'>
+      <div className='flex flex-row w-full justify-center flex-wrap sm:mt-10 mt-6'>
       <Button/>
 
       </div>
     </div>
   </div>
-  <section id='product' className={layout.sectionReverse}>
+  <section id='product' className={`${layout.section} py-0 items-center	`}>
   <div className={layout.sectionImgReverse}>
     <img src={teaching2} alt="billing" className='w-[88%] relative z-[5]' />
+</div>
 
-    <div className='absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient '/>
-    <div className='absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient '/>
-  </div>
-
-  <div className={layout.sectionInfo}>
+<div className={`${layout.sectionInfo} pt-0 pb-2.5 items-center	`}>
     <h2 className={styles.heading2}>
     Kadrlar Tayyorlash
     {/* <br className='sm:block hidden'/> billing & invoicing. */}
@@ -100,7 +94,7 @@ const Rating = () => (
     <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
     Kompaniyada treninglar va mutaxassislarni tayyorlash.
     </p>
-    <div className='flex flex-row flex-wrap sm:mt-10 mt-6'>
+    <div className='flex flex-row w-full justify-center flex-wrap sm:mt-10 mt-6'>
     <Button/>
 
     </div>
