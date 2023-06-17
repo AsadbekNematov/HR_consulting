@@ -12,7 +12,7 @@ const Rating = () => (
 
       {/* <br className='sm:block hidden'/> billing & invoicing. */}
       </h2>
-      <p className={`font-poppins font-normal text-dimWhite text-[22px] leading-[30.8px] max-w-[470px] text-center w-full p mt-5`}>
+      <p className={`font-poppins font-normal text-dimWhite text-[22px] leading-[30.8px] text-center w-full p mt-5`}>
       Lorem impsum amament
       </p>
       </div>
