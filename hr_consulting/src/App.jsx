@@ -1,7 +1,7 @@
 import styles from './style';
 import React from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { Navbar, Hero, Stats, Business, Hiring, Rating, Testimonials, Clients, CTA, Footer, Carousel, Teaching } from './components';
+import { Navbar, Hero, Stats, Business, Hiring, Rating, Testimonials, Clients, CTA, Footer, Carousel, Teaching, Contact } from './components';
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -28,6 +28,7 @@ const App = () => (
         {/*<Testimonials/>*/}
         <Clients/>
         <CTA />
+        <Contact />
         <Footer />
         
       </div>
