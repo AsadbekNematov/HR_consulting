@@ -6,8 +6,8 @@ import Button from './Button';
 
 const Rating = () => (
   <section className={`flex flex-col pt-2 relative h-full`}>
-    <div className='absolute z-[3] left-[100%] -top-20 w-[50%] h-[50%] rounded-full white__gradient '/>
-    <div className='absolute z-[0] -left-1/2 bottom-[0] w-[50%] h-[50%] rounded-full pink__gradient '/>
+    <div className='absolute z-[3] left-[100%] -top-80 w-[50%] h-[50%] rounded-full white__gradient '/>
+    <div className='absolute z-[0] top-16 -left-1/2 w-[50%] h-[50%] rounded-full pink__gradient '/>
 
     <div className={`${layout.sectionInfo} pt-0 pb-2.5 items-center`}>
       <h2 className={`${styles.heading2} text-center`}>
@@ -25,8 +25,8 @@ const Rating = () => (
       infiniteLoop={true}
       emulateTouch={true}
       selectedItem={1}
-      autoPlay={false} // Add this line to enable auto play
-      interval={2000} // Optional: Adjust this value to change the slide interval (in milliseconds)
+      autoPlay={true} // Add this line to enable auto play
+      interval={1500} // Optional: Adjust this value to change the slide interval (in milliseconds)
       className="relative h-full max-w-[100%]"
       renderArrowPrev={(onClickHandler, hasPrev, label) => 
         hasPrev && (

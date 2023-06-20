@@ -173,6 +173,10 @@ body {
   background: linear-gradient(90deg, #b9fff0 0%, #08FFC8 100%);
   filter: blur(300px);
 }
+.comp__gradient {
+  background: linear-gradient(90deg, #08ffc863 0%, #08ffc863 100%);
+  filter: blur(90px);
+}
 
 .white__gradient {
   background: rgba(8, 255, 129, 0.5);

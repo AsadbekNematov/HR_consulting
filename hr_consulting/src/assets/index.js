@@ -30,12 +30,24 @@ import rating1 from "./rating1.svg";
 import rating2 from "./rating2.svg";
 import teaching1 from "./teaching1.svg";
 import teaching2 from "./teaching2.svg";
+import apelsin from "./apelsin.png";
+import iyb from "./iyb.png";
+import artel from "./artel.png";
+import click from "./click.png";
+import itpark from "./itpark.png";
+import uzum from "./uzum.png";
 
 
 
 
 
 export {
+  apelsin,
+  iyb, 
+  artel,
+  click,
+  itpark,
+  uzum,
   hiring1,
   hiring2,
   rating1, 
